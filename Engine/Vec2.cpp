@@ -62,3 +62,16 @@ Vec2 Vec2::GetNormalized() const
 	}
 	return *this;
 }
+
+int Vec2::GetDotProduct(const Vec2& a, const Vec2& b)
+{
+	return ((a.x * b.x) + (a.y * b.y));
+}
+
+int Vec2::GetNormalizedDotProduct(const Vec2& a, const Vec2& b)
+{
+	Vec2 aN = a.GetNormalized();
+	Vec2 bN = b.GetNormalized();
+
+	return ((aN.x * bN.x) + (aN.y * bN.y));
+}

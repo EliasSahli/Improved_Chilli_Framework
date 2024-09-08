@@ -109,4 +109,11 @@ namespace Colors
 	static constexpr Color Yellow = MakeRGB( 255u,255u,0u );
 	static constexpr Color Cyan = MakeRGB( 0u,255u,255u );
 	static constexpr Color Magenta = MakeRGB( 255u,0u,255u );
+	//My Collorpallates
+	//1
+	static constexpr Color VeryDarkMostBlackBlue = MakeRGB(13u, 27u, 42u);
+	static constexpr Color VeryDarkDesaturatedBlue = MakeRGB(27u, 38u, 59u);
+	static constexpr Color DarkModerateBlue = MakeRGB(65u, 90u, 119u);
+	static constexpr Color MostlyDesaturatedDarkBlue = MakeRGB(119u, 141u, 169u);
+	static constexpr Color LightGrayishGreen = MakeRGB(224u, 225u, 221u);
 }
